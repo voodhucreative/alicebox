@@ -1,0 +1,44 @@
+﻿<Properties StartupConfiguration="{0B66E2D3-8FBC-4428-9C5A-ECED069BA2FB}|Default">
+  <Xamarin.Addins.Core.Project ActiveDebugTarget="Android.Nexus_4_API_29" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="AliceBox/MainPage.xaml.cs">
+    <Files>
+      <File FileName="AliceBox.Android/Resources/mipmap-anydpi-v26/icon.xml" Line="5" Column="17" />
+      <File FileName="AliceBox.Android/Resources/mipmap-anydpi-v26/icon_round.xml" Line="5" Column="17" />
+      <File FileName="../../Dev/StartingPoint/Apps-Starting-Point/StartingPoint/Helpers/Dimensions.cs" Line="1" Column="1" />
+      <File FileName="AliceBox.Android/MainActivity.cs" Line="21" Column="1" />
+      <File FileName="AliceBox.Android/Resources/values/colors.xml" Line="3" Column="37" />
+      <File FileName="AliceBox.Android/Properties/AssemblyInfo.cs" Line="1" Column="1" />
+      <File FileName="AliceBox.Android/Resources/values/styles.xml" Line="1" Column="1" />
+      <File FileName="AliceBox/App.xaml.cs" Line="44" Column="6" />
+      <File FileName="AliceBox/MainPage.xaml.cs" Line="1621" Column="21" />
+      <File FileName="AliceBox.iOS/AppDelegate.cs" Line="28" Column="1" />
+      <File FileName="AliceBox.iOS/Info.plist" />
+      <File FileName="AliceBox.iOS/Entitlements.plist" />
+      <File FileName="AliceBox.Android/Properties/AndroidManifest.xml" />
+      <File FileName="AliceBox/Helpers/Units.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="AliceBox" expanded="True">
+            <Node name="AliceBox.Android" expanded="True">
+              <Node name="Resources" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.MonoDroid LastDeploySdkVersion="13.0.0.0" />
+  <MonoDevelop.Ide.ItemProperties.AliceBox.Android PreferredExecutionTarget="Android.Nexus_4_API_29" AndroidDesignerPreferredTheme="MainTheme" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.AliceBox.iOS automaticSigning="False" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.142786BA-1B46-4901-8804-769D0BED829E" />
+  <MultiItemStartupConfigurations />
+</Properties>

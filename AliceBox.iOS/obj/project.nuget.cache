@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "LNPI88HOMLuCwhM4PyhTEE1lNIdY6ouDKtpwhi3pN0IquQ41XwxDAWateLtbQfMasR3v/tBPojZ6csdgrx54sw==",
+  "success": true,
+  "projectFilePath": "/Users/mathowlett/Projects/AliceBox/AliceBox.iOS/AliceBox.iOS.csproj",
+  "expectedPackageFiles": [
+    "/Users/mathowlett/.nuget/packages/system.numerics.vectors/4.5.0/system.numerics.vectors.4.5.0.nupkg.sha512",
+    "/Users/mathowlett/.nuget/packages/xam.plugin.simpleaudioplayer/1.6.0/xam.plugin.simpleaudioplayer.1.6.0.nupkg.sha512",
+    "/Users/mathowlett/.nuget/packages/xamarin.essentials/1.7.2/xamarin.essentials.1.7.2.nupkg.sha512",
+    "/Users/mathowlett/.nuget/packages/xamarin.forms/5.0.0.2401/xamarin.forms.5.0.0.2401.nupkg.sha512"
+  ],
+  "logs": []
+}

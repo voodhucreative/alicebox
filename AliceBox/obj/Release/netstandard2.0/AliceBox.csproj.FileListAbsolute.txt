@@ -1,0 +1,15 @@
+/Users/mathowlett/Projects/AliceBox/AliceBox/bin/Release/netstandard2.0/AliceBox.deps.json
+/Users/mathowlett/Projects/AliceBox/AliceBox/bin/Release/netstandard2.0/AliceBox.dll
+/Users/mathowlett/Projects/AliceBox/AliceBox/bin/Release/netstandard2.0/ref/AliceBox.dll
+/Users/mathowlett/Projects/AliceBox/AliceBox/bin/Release/netstandard2.0/AliceBox.pdb
+/Users/mathowlett/Projects/AliceBox/AliceBox/obj/Release/netstandard2.0/AliceBox.GeneratedMSBuildEditorConfig.editorconfig
+/Users/mathowlett/Projects/AliceBox/AliceBox/obj/Release/netstandard2.0/App.xaml.g.cs
+/Users/mathowlett/Projects/AliceBox/AliceBox/obj/Release/netstandard2.0/MainPage.xaml.g.cs
+/Users/mathowlett/Projects/AliceBox/AliceBox/obj/Release/netstandard2.0/AliceBox.AssemblyInfoInputs.cache
+/Users/mathowlett/Projects/AliceBox/AliceBox/obj/Release/netstandard2.0/AliceBox.AssemblyInfo.cs
+/Users/mathowlett/Projects/AliceBox/AliceBox/obj/Release/netstandard2.0/AliceBox.csproj.CoreCompileInputs.cache
+/Users/mathowlett/Projects/AliceBox/AliceBox/obj/Release/netstandard2.0/XamlC.stamp
+/Users/mathowlett/Projects/AliceBox/AliceBox/obj/Release/netstandard2.0/AliceBox.dll
+/Users/mathowlett/Projects/AliceBox/AliceBox/obj/Release/netstandard2.0/ref/AliceBox.dll
+/Users/mathowlett/Projects/AliceBox/AliceBox/obj/Release/netstandard2.0/AliceBox.pdb
+/Users/mathowlett/Projects/AliceBox/AliceBox/obj/Release/netstandard2.0/AliceBox.csproj.AssemblyReference.cache

@@ -1,0 +1,225 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">iPhoneSimulator</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{9A173544-CA06-4D7F-9D19-74287F105555}</ProjectGuid>
+    <ProjectTypeGuids>{FEACFBD2-3405-455C-9665-78FE426C6842};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <TemplateGuid>{6143fdea-f3c2-4a09-aafa-6e230626515e}</TemplateGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>AliceBox.iOS</RootNamespace>
+    <IPhoneResourcePrefix>Resources</IPhoneResourcePrefix>
+    <AssemblyName>AliceBox.iOS</AssemblyName>
+    <MtouchEnableSGenConc>true</MtouchEnableSGenConc>
+    <MtouchHttpClientHandler>NSUrlSessionHandler</MtouchHttpClientHandler>
+    <ProvisioningType>automatic</ProvisioningType>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|iPhoneSimulator' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>portable</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\iPhoneSimulator\Debug</OutputPath>
+    <DefineConstants>DEBUG</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <MtouchArch>x86_64</MtouchArch>
+    <MtouchLink>None</MtouchLink>
+    <MtouchDebug>true</MtouchDebug>
+    <MtouchSdkVersion>15.5</MtouchSdkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhoneSimulator' ">
+    <DebugType>none</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\iPhoneSimulator\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <MtouchLink>None</MtouchLink>
+    <MtouchArch>x86_64</MtouchArch>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|iPhone' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>portable</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\iPhone\Debug</OutputPath>
+    <DefineConstants>DEBUG</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <MtouchArch>ARM64</MtouchArch>
+    <CodesignKey>iPhone Developer: Joanne Saul (43PF3L3VUX)</CodesignKey>
+    <MtouchDebug>true</MtouchDebug>
+    <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
+    <MtouchLink>None</MtouchLink>
+    <MtouchInterpreter>-all</MtouchInterpreter>
+    <CodesignProvision>AliceDevelopment</CodesignProvision>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhone' ">
+    <DebugType>none</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\iPhone\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <MtouchArch>ARM64</MtouchArch>
+    <CodesignKey>iPhone Distribution: Joanne Saul (PSX9KS4WN7)</CodesignKey>
+    <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
+    <MtouchLink>SdkOnly</MtouchLink>
+    <CodesignProvision>AliceDistribution</CodesignProvision>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Main.cs" />
+    <Compile Include="AppDelegate.cs" />
+    <None Include="Entitlements.plist" />
+    <None Include="Info.plist" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <InterfaceDefinition Include="Resources\LaunchScreen.storyboard" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon-App-20x20%402x.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon-App-20x20%403x.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon-App-29x29%402x.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon-App-29x29%403x.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon-App-40x40%402x.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon-App-40x40%403x.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon-App-60x60%402x.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon-App-60x60%403x.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon-App-20x20%401x.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon-App-20x20%402x-1.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon-App-29x29%401x.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon-App-29x29%402x-1.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon-App-40x40%401x.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon-App-40x40%402x-1.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon-App-76x76%401x.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon-App-76x76%402x.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon-App-83.5x83.5%402x.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\iTunesArtwork%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="Xamarin.iOS" />
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Numerics.Vectors" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Xamarin.Forms" Version="5.0.0.2401" />
+    <PackageReference Include="Xamarin.Essentials" Version="1.7.2" />
+    <PackageReference Include="Xam.Plugin.SimpleAudioPlayer">
+      <Version>1.6.0</Version>
+    </PackageReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
+  <ItemGroup>
+    <ProjectReference Include="..\AliceBox\AliceBox.csproj">
+      <Project>{1A2F9ECE-2B3E-4403-B241-B50ED9CBFF7A}</Project>
+      <Name>AliceBox</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\mainoff.png" />
+    <BundleResource Include="Resources\mainon.png" />
+    <BundleResource Include="Resources\off.png" />
+    <BundleResource Include="Resources\on.png" />
+    <BundleResource Include="Resources\loglabel.png" />
+    <BundleResource Include="Resources\viewlabel.png" />
+    <BundleResource Include="Resources\greenlight.png" />
+    <BundleResource Include="Resources\offlight.png" />
+    <BundleResource Include="Resources\orangelight.png" />
+    <BundleResource Include="Resources\redlight.png" />
+    <BundleResource Include="Resources\alicebg1.png" />
+    <BundleResource Include="Resources\beep.wav" />
+    <BundleResource Include="Resources\beep2.wav" />
+    <BundleResource Include="Resources\switch.wav" />
+    <BundleResource Include="Resources\alicebg2.png" />
+    <BundleResource Include="Resources\beep2.mp3" />
+    <BundleResource Include="Resources\beep.mp3" />
+    <BundleResource Include="Resources\switch.mp3" />
+    <BundleResource Include="Resources\redlight1.png" />
+    <BundleResource Include="Resources\greenlight1.png" />
+    <BundleResource Include="Resources\orangelight1.png" />
+    <BundleResource Include="Resources\greylight1.png" />
+    <BundleResource Include="Resources\alicesmall.png" />
+    <BundleResource Include="Resources\alicemedium.png" />
+    <BundleResource Include="Resources\alicebig.png" />
+    <BundleResource Include="Resources\book2.png" />
+    <BundleResource Include="Resources\typewriter.png" />
+    <BundleResource Include="Resources\XTypewriter-Bold.ttf" />
+    <BundleResource Include="Resources\XTypewriter-Regular.ttf" />
+    <BundleResource Include="Resources\typewriter5.png" />
+    <BundleResource Include="Resources\fog_31.png" />
+    <BundleResource Include="Resources\fog_32.png" />
+    <BundleResource Include="Resources\fog_33.png" />
+    <BundleResource Include="Resources\fog_34.png" />
+    <BundleResource Include="Resources\fog_35.png" />
+    <BundleResource Include="Resources\fog_36.png" />
+    <BundleResource Include="Resources\fog_37.png" />
+    <BundleResource Include="Resources\fog_38.png" />
+    <BundleResource Include="Resources\fog_39.png" />
+    <BundleResource Include="Resources\fog_40.png" />
+    <BundleResource Include="Resources\fog_41.png" />
+    <BundleResource Include="Resources\fog_42.png" />
+    <BundleResource Include="Resources\fog_43.png" />
+    <BundleResource Include="Resources\fog_44.png" />
+    <BundleResource Include="Resources\fog_45.png" />
+    <BundleResource Include="Resources\fog_46.png" />
+    <BundleResource Include="Resources\fog_47.png" />
+    <BundleResource Include="Resources\fog_48.png" />
+    <BundleResource Include="Resources\fog_49.png" />
+    <BundleResource Include="Resources\fog_50.png" />
+    <BundleResource Include="Resources\fog_51.png" />
+    <BundleResource Include="Resources\fog_52.png" />
+    <BundleResource Include="Resources\fog_53.png" />
+    <BundleResource Include="Resources\fog_54.png" />
+    <BundleResource Include="Resources\fog_55.png" />
+    <BundleResource Include="Resources\fog_56.png" />
+    <BundleResource Include="Resources\fog_57.png" />
+    <BundleResource Include="Resources\fog_58.png" />
+    <BundleResource Include="Resources\fog_59.png" />
+    <BundleResource Include="Resources\fog_0.png" />
+    <BundleResource Include="Resources\fog_1.png" />
+    <BundleResource Include="Resources\fog_2.png" />
+    <BundleResource Include="Resources\fog_3.png" />
+    <BundleResource Include="Resources\fog_4.png" />
+    <BundleResource Include="Resources\fog_5.png" />
+    <BundleResource Include="Resources\fog_6.png" />
+    <BundleResource Include="Resources\fog_7.png" />
+    <BundleResource Include="Resources\fog_8.png" />
+    <BundleResource Include="Resources\fog_9.png" />
+    <BundleResource Include="Resources\fog_10.png" />
+    <BundleResource Include="Resources\fog_11.png" />
+    <BundleResource Include="Resources\fog_12.png" />
+    <BundleResource Include="Resources\fog_13.png" />
+    <BundleResource Include="Resources\fog_14.png" />
+    <BundleResource Include="Resources\fog_15.png" />
+    <BundleResource Include="Resources\fog_16.png" />
+    <BundleResource Include="Resources\fog_17.png" />
+    <BundleResource Include="Resources\fog_18.png" />
+    <BundleResource Include="Resources\fog_19.png" />
+    <BundleResource Include="Resources\fog_20.png" />
+    <BundleResource Include="Resources\fog_21.png" />
+    <BundleResource Include="Resources\fog_22.png" />
+    <BundleResource Include="Resources\fog_23.png" />
+    <BundleResource Include="Resources\fog_24.png" />
+    <BundleResource Include="Resources\fog_25.png" />
+    <BundleResource Include="Resources\fog_26.png" />
+    <BundleResource Include="Resources\fog_27.png" />
+    <BundleResource Include="Resources\fog_28.png" />
+    <BundleResource Include="Resources\fog_29.png" />
+    <BundleResource Include="Resources\fog_30.png" />
+    <BundleResource Include="Resources\alicebg3.png" />
+    <BundleResource Include="Resources\panel.png" />
+    <BundleResource Include="Resources\switch_light.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\words.txt" />
+    <EmbeddedResource Include="Resources\words1.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ITunesArtwork Include="iTunesArtwork" />
+    <ITunesArtwork Include="iTunesArtwork%402x" />
+  </ItemGroup>
+</Project>
